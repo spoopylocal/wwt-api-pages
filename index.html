@@ -4,7 +4,7 @@
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src https://lnjakwvacwsaixdguojm.supabase.co; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'self'">
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark">
-  <title>Operations desk</title><link rel="stylesheet" href="./style.css?v=872ef03a82ac"><link rel="stylesheet" href="./dark.css?v=f3dc41549a09"><link rel="stylesheet" href="./cloud.css?v=37c2e67ea261"><script src="./cloud.js?v=05cf8065e70e" type="module"></script>
+  <title>Operations desk</title><link rel="stylesheet" href="./style.css?v=286d2cec0c7a"><link rel="stylesheet" href="./dark.css?v=f3dc41549a09"><link rel="stylesheet" href="./cloud.css?v=37c2e67ea261"><script src="./cloud.js?v=7f1747a3e55f" type="module"></script>
 </head>
 <body>
   <aside class="sidebar">
@@ -33,7 +33,7 @@
           <button class="view-tab active" data-view="open">Open</button><button class="view-tab" data-view="changed">Recent changes</button><button class="view-tab" data-view="recent">Recently updated</button><button class="view-tab" data-view="stale">Needs an update</button><button class="view-tab" data-view="ready">Closure review</button><button class="view-tab" data-view="orders">Work order risk</button><button class="view-tab" data-view="all">History</button>
         </nav>
         <div class="filters">
-          <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search report</span><input id="search" type="search" placeholder="Search flags, WOs, or CCCs"></label>
+          <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search report</span><input id="search" type="search" placeholder="Search flags, WOs, CCCs, or GICREQs"></label>
           <div class="filter-options"><label><span class="sr-only">Owner</span><select id="owner"><option value="">All owners</option></select></label><label><span class="sr-only">Sort</span><select id="sort"><option value="risk">Highest risk</option><option value="updated">Recently updated</option><option value="stale">Oldest update</option><option value="oldest">Oldest flag</option><option value="newest">Newest flag</option><option value="score">Closure confidence</option></select></label></div>
         </div>
         <p id="view-note" class="view-note"></p><div id="table-wrap"><div class="empty">Refresh flags to get started.</div></div>
